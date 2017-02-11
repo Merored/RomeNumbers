@@ -1,0 +1,15 @@
+{
+    "name": "root/rome-num",
+    "require": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Vlad Sventik",
+            "email": "sventik.vlad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"RomeNumbers\\": "src/"}
+    }
+}
