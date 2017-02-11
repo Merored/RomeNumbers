@@ -34,7 +34,5 @@ class LuhnAlgorithmTest extends PHPUnit\Framework\TestCase
 		$this->assertEquals(1390, $this->RomeNumbers->convertRomeNumber()); 
 		$this->RomeNumbers->setRomeNumber("MID");
 		$this->assertEquals(1499, $this->RomeNumbers->convertRomeNumber()); 
-		
-
 	}
 }

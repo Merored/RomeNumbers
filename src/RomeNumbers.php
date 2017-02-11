@@ -23,7 +23,6 @@ class RomeNumbers {
 	public function convertRomeNumber() {
 		if ($this->romeNumber == null) { throw new InvalidArgumentException; }
 		return $this->convertRomeToArabic();
-
 	}
 
 
